@@ -7,16 +7,11 @@ export function createCharacterCard(characterData) {
   newCard.classList.add("card");
   cardContainer.append(newCard);
 
-  const src = "";
-  src.textContent = characterData.image;
-  const name = "";
-  name.textContent = characterData.name;
-  const status = "";
-  status.textContent = characterData.status;
-  const type = "";
-  type.textContent = characterData.type;
-  const occurrences = "";
-  occurrences.textContent = characterData.episode.length;
+  const src = characterData.image;
+  const name = characterData.name;
+  const status = characterData.status;
+  const type = characterData.type;
+  const occurrences = characterData.episode.length;
 
   newCard.innerHTML = `
     <div class="card__image-container">
