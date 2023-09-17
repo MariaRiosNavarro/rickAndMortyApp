@@ -1,3 +1,3 @@
 # [DEPLOYMENT](https://mariariosnavarro.github.io/rickAndMortyApp/)
 
-![readme pic](/assets/readme.png)
+<div><img src="./assets/readme.png" width="300px" alt="readme pic"></div>
